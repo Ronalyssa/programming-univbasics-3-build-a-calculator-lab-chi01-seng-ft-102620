@@ -5,25 +5,25 @@ end
 
 def subtraction(num1, num2)
   difference = num1 - num2
-  puts difference
+  return difference
 end
 
 def division(num1, num2)
   quotient = num1 / num2
-  puts quotient
+  return quotient
 end
 
 def multiplication(num1, num2)
   multiply = num1 * num2
-  puts multiply
+  return multiply
 end
 
 def modulo(num1, num2)
   remainder = num1 % num2
-  puts remainder
+  return remainder
 end
 
 def square_root(num)
   root = Math.sqrt(num)
-  puts root
+  return root
 end
